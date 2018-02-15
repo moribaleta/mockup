@@ -1,0 +1,70 @@
+body{
+    overflow-x: hidden;
+}
+
+/*carousel*/
+#content-carousel{
+    background: black;
+}
+
+.carousel-inner .item{
+    text-align: center;
+    overflow-y: hidden;
+    min-height: 250px;
+}
+
+.carousel-inner .item img{
+    height: 100%;
+    width: auto;
+    display:block;
+    margin:auto;
+}
+/*carousel*/
+
+/*content-body*/
+.main-panel,.side-panel{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main-panel .panel-body .list-group .list-group-item {
+    margin-bottom: 10px;
+}
+
+.main-panel  .panel-heading{
+    margin-left: 16px;
+}
+
+.side-panel .panel-heading{
+    padding-left: 32px;
+}
+
+
+.panel{
+    border: none;
+    box-shadow: none;
+}
+
+.panel-heading{
+    padding-left: 16px;
+    font-size: 20px;
+}
+.panel-body{
+    margin-left: 10px;
+}
+
+.card-content{
+    
+}
+
+.card-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/*content-body*/
+
+.footer{
+    margin-top: 50px;
+}
